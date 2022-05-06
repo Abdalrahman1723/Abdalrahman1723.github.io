@@ -246,7 +246,7 @@ ul{
   display: inline-flex;
   list-style-type:none;
   position: relative;
-  animation: list 4s ease-out infinite;
+  animation: list 3s ease-out infinite;
 }
 ul li{
   margin:15px;
@@ -267,11 +267,15 @@ ul li{
   height: 40px;
   color: coral;
 }
+.li0{
+  width: 200px;
+}
 @keyframes list{
   0%{right: 0;}
-  33%{right: 200px;}
-  66%{right: 400px;}
-  100%{right: 600px;}
+  25%{right: 200px;}
+  50%{right: 400px;}
+  75%{right:600px;}
+  100%{right: 800px;}
 }
 /* java elements */
 #start{
