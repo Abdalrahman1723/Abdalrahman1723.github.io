@@ -251,6 +251,9 @@ ul{
 ul li{
   margin:15px;
 }
+.li0{
+  width: 200px;
+}
 .li1{
   width: 200px;
   color: blueviolet;
@@ -266,8 +269,9 @@ ul li{
 }
 @keyframes list{
   0%{right: 0;}
-  50%{right: 200px;}
-  100%{right: 400px;}
+  33%{right: 200px;}
+  66%{right: 400px;}
+  100%{right: 600px;}
 }
 /* java elements */
 #start{
