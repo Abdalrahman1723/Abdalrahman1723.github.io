@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(33, 33, 33);
+  overflow-x: hidden;
+}
+header {
+  background-color: rgb(96, 108, 247);
+  width: auto;
+  position: relative;
+  top: 0px;
+  left: 0 px;
+  height: 4%;
+  z-index: 300;
+}
+.pos {
+  position: sticky;
+  width: 100%;
+  top: 0px;
+}
+.z {
+  display: inline-block;
+  top: 0;
+  font-size: x-large;
+  font-weight: 700;
+  margin-left: 10px;
+  text-decoration: solid white 3px;
+}
+.image {
+  margin-left: 48%;
+  margin-right: 480%;
+  margin-top: auto;
+  width: "75px";
+  height: "75px";
+  margin-top: -25px;
+}
+input {
+  right: 1%;
+  top: 5%;
+  position: absolute;
+}
+.home {
+  right: 133px;
+  top: 30px;
+  position: absolute;
+  display: inline-block;
+}
+.login {
+  right: 30px;
+  top: 30px;
+  position: absolute;
+  display: inline-block;
+}
+/* fonts */
+h1 {
+  /* width: 40%; */
+  height: auto;
+  color: aliceblue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  border: 4px floralwhite solid;
+  font-family: cursive;
+  padding: auto;
+}
+h2 {
+  color: aliceblue;
+  padding-left: 10px;
+  padding: 10px;
+  font-family: arial;
+}
+h4 {
+  color: whitesmoke;
+}
+td {
+  color: whitesmoke;
+}
+
+p {
+  color: aliceblue;
+  padding-left: 30px;
+}
+a{
+  color: cornflowerblue;
+}
+h3 {
+  color: aliceblue;
+  padding-left: 30px;
+}
+ol {
+  padding: 10px;
+  color: whitesmoke;
+  padding-left: 30px;
+}
+/* games */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 3px;
+  overflow-x: auto;
+}
+/* games p */
+.asc p {
+  font-size: larger;
+  color: azure;
+  margin-left: 20px;
+  padding-bottom: 10px;
+}
+.gta p {
+  font-size: larger;
+  color: azure;
+  margin-left: 80px;
+  padding-bottom: 10px;
+}
+.cod p {
+  font-size: larger;
+  color: azure;
+  margin-left: 5px;
+  padding-bottom: 10px;
+}
+.gow p {
+  font-size: larger;
+  color: azure;
+  margin-left: 75px;
+  padding-bottom: 10px;
+}
+.red p {
+  font-size: larger;
+  color: azure;
+  margin-left: 25px;
+  padding-bottom: 10px;
+}
+/* table */
+table{
+  margin-bottom: 10px;
+  border: 2px blanchedalmond solid;
+  border-collapse:collapse;
+  width: 40%;
+}
+td{
+  border-left: 1px white solid;
+  border-collapse: collapse;
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+thead{
+  text-align: center;
+  height:60px;
+  font-size: 20px;
+}
+/* iframe */
+iframe{
+  width: 40%;
+  height: 450px;
+  position: relative;
+  left: 60%;
+}
+/* pseudo elements */
+a:visited{
+  color: coral;
+}
+a:hover{
+  color: aqua;
+}
+tr:hover{
+  background-color:rgba(255, 229, 196, 0.105);
+}
+td:hover{
+  background-color:rgba(255, 229, 196, 0.177) ;
+}
+/* footer */
+.fot {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: auto;
+}
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(96, 108, 247);
+  overflow: hidden;
+}
+
+.zf {
+  position: relative;
+  left: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  bottom: -4px;
+}
+
+.fa {
+  position: relative;
+  top: -49px;
+  left: 960px;
+  padding: 20px;
+  width: 30px;
+  /* bottom: -36px; */
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  overflow: hidden;
+}
+
+.fa-facebook {
+  color: rgb(31, 102, 235);
+}
+
+.fa-twitter {
+  color: aqua;
+}
+
+.fa-google {
+  color: yellow;
+}
+
+.fa-linkedin {
+  color: blue;
+}
+
+.fa-youtube {
+  color: red;
+}
+
+.fa-instagram {
+  color: purple;
+}
+/* animation */
+.ulcontain{
+  width: 200px;
+  overflow: hidden;
+  margin-left:42%;
+}
+ul{
+  display: inline-flex;
+  list-style-type:none;
+  position: relative;
+  animation: list 4s ease-out infinite;
+}
+ul li{
+  margin:15px;
+}
+.li1{
+  width: 200px;
+  color: blueviolet;
+}
+.li2{
+  width: 200px;
+  color: crimson;
+}
+.li3{
+  width: 200px;
+  height: 40px;
+  color: coral;
+}
+@keyframes list{
+  0%{right: 0;}
+  50%{right: 200px;}
+  100%{right: 400px;}
+}
+/* java elements */
+#start{
+  text-align: center;
+  /* margin-left: 50% ; */
+  padding-top: 20px;
+  font-size:x-large;
+  display: inline-block;
+}
+button{
+  margin-left: 15px ;
+  font-size: 20px;
+}
